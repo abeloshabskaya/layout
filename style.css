@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-.header__overlay__title {
+.header__title {
   font-size: 140px;
   color: white;
   text-transform: uppercase;
@@ -27,10 +27,11 @@ body {
   margin: auto;
 }
 
-.header__overlay {
+.header:after {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0);
+  filter: brightness(50%);
   display: flex;
 }
 .content {
