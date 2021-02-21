@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-.header-title {
+.header__overlay__title {
   font-size: 140px;
   color: white;
   text-transform: uppercase;
@@ -27,7 +27,7 @@ body {
   margin: auto;
 }
 
-.overlay {
+.header__overlay {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, .5);
@@ -38,7 +38,7 @@ body {
   width: 790px;
   margin: 100px auto 50px;
 }
-.card {
+.content__card {
   width: 350px;
   margin-bottom: 60px;
   margin-right: 90px;
@@ -46,18 +46,18 @@ body {
   display: inline-block;
   box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
 }
-.no-right-margin {
+.content__card--no-right-margin {
   margin-right: 0;
 }
-.card-title {
+.content__card__title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 10px;
 }
-.card-text {
+.content__card__text {
   font-size: 16px;
 }
-.card-image {
+.content__card__image {
   width: 100%;
   margin-bottom: 25px;
 }
@@ -66,7 +66,7 @@ body {
   background-color: #000;
   display: flex;
 }
-.footer-author {
+.footer__author {
   color: white;
   font-size: 24px;
   margin: auto;
